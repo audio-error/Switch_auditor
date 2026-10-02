@@ -2,6 +2,8 @@
 This is a simple cli script that check the mac address in the description of a port matches the mac address in the MAC table of that port. Has a neat CLI too
 
 ## Usage
+Edit "secrets.yaml" to add your switch's username and password
+
 SwitchAuditor [-h] [-s IP_ADDRESSES [IP_ADDRESSES ...]] [-v]
 
 Will conect to a list of switches and check if the MAC address in the description field of each port matches the MAC
